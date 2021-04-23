@@ -118,7 +118,7 @@ Long form makes it a bit easier to see where things fit in, but again, it is
 not the common convention to use return statements in Ruby, including within a
 function definition, so the following precludes the return statement.  You will
 notice, however, that it would become a normal function definition by simply
-prefixing `return ` to the operative line.
+prefixing `return` to the operative line.
 
 ```ruby
 def multiply_by_3(x)
@@ -182,7 +182,7 @@ var result = test_array.map(x => x * 3);
 
 Long format is similar, but this time there are two little tricks.  Firstly,
 JavaScript features something called hoisting, which means that the function
-can be defined after its initial used, as long as the definition is fully
+can be defined after its initial use, as long as the definition is fully
 present within the scope of the script.  Secondly, because the variable is not
 being overwritten this time, `let` is used to declare the results variable.
 
